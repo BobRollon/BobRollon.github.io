@@ -3,180 +3,9 @@
 <head>
 	<title>Site de la Troupe Nautique 1er Notre Dame de Milin</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/style_mise_en_ligne.css">
 </head>
 <body>
-<style type="text/css">
-	article {
-		color: #FF8D00;
-		background-color: #ccc;
-		width: 20%;
-		height: 100%;
-		float: left;
-	}
-	section, div {
-		display: none;
-	}
-	img.CodeTemplier{
-		height: 40%;
-		width: 30%;
-	}
-
-	img.illustration{
-		margin-left: 35%;
-		height: 50%;
-	}
-
-	img.imgfond {
-		width: 100%;
-	}
-	span.text{
-		display: inline;
-	}
-	span.img{
-		display: inline-block;
-	}
-
-	img.div_button {
-		height: 110%;
-		width: 10%;
-	}
-	img.right_border{
-		margin-right: 35%;
-	}
-	img.left_border{
-		margin-left: 20%;
-	}
-	img.solo{
-		margin-left: ;
-	}
-	div.petite{
-		height: 100%;
-	}
-	button {
-		border: none;
-		height: 4%;
-		width: 28%;
-		text-align: center;
-		margin-right: 5%;
-		font-size: 100%;
-		background-color: #ccc;
-	}
-	
-	.button_PA{
-			transition: display;		
-	}
-	.div_button {
-		width: 100%;
-	}
-	header {
-		background-color: #ccc;
-	}
-
-	.WriteOnImg {
-		position: absolute;
-
-	}
-
-	p, h3, .page, ol, h4{
-		text-indent: 50px;
-		margin-left: 22%;
-	}
-	h2 {
-		text-align: center;
-	}
-	.home, .list{
-		margin-left: 0%;
-	}
-	.Menu{
-		margin-bottom: 5%;
-		cursor: pointer;
-	}
-	footer{
-		background: rgba(200, 200, 200, 1.2);
-		width: 100%;
-		display: block;
-		height: 25%;
-	}
-	img.footer{
-		z-index: 0;
-  		cursor: pointer;
-		height: 100%;
-		margin-bottom: 1%;
-		margin-top: 1%;
-		position: static;
-	}
-	div.footer{
-		width: 10%;
-		position: relative;
-		top: 55%;
-		left: 20%;
-		transform: translate(-50%, -50%);
-		transition: 0.3s ease-in-out;
-		z-index: 0;
-		overflow: hidden;
-		cursor: pointer;
-		display: inline-block;
-		height: 90%;
-		margin-right: 20%;
-	}
-	span.footer{
-		display: block;
-		position: absolute;
-		color: white;
-		background: black;
-		width: 100%;
-		opacity: 0;
-		transition: 0.3s ease-in-out;
-		z-index: 1;
-		cursor: pointer;
-		height: 100%;
-	}
-	div.text_footer{
-		display: block;
-		text-align: center;
-		font-size: 150%;
-	}
-	div.footer:hover span.footer {
-  opacity: 0.8;
-  transform: translate(0, -100%);
-}
-	.button{
-		cursor: pointer;
-	}
-
-	.purple{
-		background-color: purple;
-	}
-
-	.brown{
-		background-color: brown;
-	}
-
-	.blue{
-		background-color: rgba(025, 25, 112, 0.95);
-		color: #FFD700;
-	}
-
-	.red{
-		background-color: red;
-	}
-
-	.green{
-		background-color: green;
-	}
-
-	.Technique{
-		background-color: green;
-	}
-
-	.Livre{
-		background-color: royalblue;
-	}
-
-	.Progression{
-		background-color: yellow;
-	}
-</style>
 <script type="text/javascript">
 	function affich_page (section, page, SousPage, couleur) {
 		list_argument = [section, page, SousPage];
@@ -195,9 +24,9 @@
 	}
 </script>
 <header>
-	<aside style="height: 400px"><img src="En_tete.jpg" class="imgfond" style="height: 100%;"></aside>
+	<aside style="height: 400px"><img src="../images/En_tete.jpg" class="imgfond" style="height: 100%;"></aside>
 	<div class="div_button" style="display: block;">
-		<button onclick="affich_page ('home',0,0, 0)"><img src="home.ico" class="div_button button"></button>
+		<button onclick="affich_page ('home',0,0, 0)"><img src="../images/home.ico" class="div_button button"></button>
 		<button onclick="affich_page ('PA','HomePA',0,0)" class="button_PA button" >Poste d'Action</button>
 		<button onclick="affich_page('Progression','HomeProgression',0,0)" class="button">Progression</button>
 		<button onclick="affich_page ('Technique','HomeTechnique',0,0)" class="button">Technique Scout</button>
@@ -260,13 +89,13 @@
 		<p>Au scout, les troupes, ou compagnies, sont divisés en patrouille. Ces patrouilles sont autonome, ou presque, et pour que le fonctionnement de la patrouille marche, chacun à son role. Ce role est défini par les PA ou postes d'action.</p>
 		<p>Ici, cher visiteur, tu découvriras tout les fils des différents Postes d'Action. Tu apprendras tous ce qu'il y a à savoir sur les responsabilités qui t'incombent en tant que membre d'un patrouille.</p>
 		<p>D'abord, en introduction, voici comment s'organise un PA. Le PA pousse le scout à progresser, c'est son but. Au départ, sauf si le scout vient d'arriver, le scout connait une certaine base. Cette base, il l'a acquise l'an passer, lorsque le scout qui avait ce PA a enseigné les bases à toute la patrouille. Ensuite, au fur et à mesure de l'année, le scout va s'exercer, progresser, prendre la main. On va peu à peu, mais tout de même assez vite, le responsabiliser. A chaque week-end, il va devoir préparer un petit quelque chose, directement en lien avec son PA. Puis vers le milieu voir fin d'année, on va demander au scout de maîtriser parfaitement son PA et il va alors organiser un week-end, avec son Chef de Patrouille, où la plupart des activités seront tournés vers son PA. Le but du scout, apprendre les bases de son PA à toute la patrouille. De plus, le scout, à partir du moment où il est nommé sur un PA et jusqu'à la fin de l'année, sera responsable d'une partie du matériel de la patrouille. Ce matériel, c'est le matériel directement lié au poste d'action. Il devra l'entretenir et le garnir. Ainsi, dès le début d'année le scout doit vérifier le matériel et donner le budget nécessaire pour la construction/reconstruction du matériel qui lui est confié.</p>
-		<img src="PA\HomePA_1.gif" class="img_PA" style="margin-left: 5%;">
-		<img src="PA\HomePA_2.gif" class="img_PA"><img src="PA\HomePA_2.1.gif" class="img_PA">
-		<img src="PA\HomePA_3.gif" class="img_PA"><img src="PA\HomePA_3.1.png" class="img_PA">
-		<img src="PA\HomePA_7.png" class="img_PA">
-		<img src="PA\HomePA_4.gif" class="img_PA" style="margin-left: 12%"><img src="PA\HomePA_4.1.png" class="img_PA">
-		<img src="PA\HomePA_5.gif" class="img_PA"><img src="PA\HomePA_5.2.png" class="img_PA">
-		<img src="PA\HomePA_6.jpeg" class="img_PA">
+		<img src="..\images\PA\HomePA_1.gif" class="img_PA" style="margin-left: 5%;">
+		<img src="..\images\PA\HomePA_2.gif" class="img_PA"><img src="..\images\PA\HomePA_2.1.gif" class="img_PA">
+		<img src="..\images\PA\HomePA_3.gif" class="img_PA"><img src="..\images\PA\HomePA_3.1.png" class="img_PA">
+		<img src="..\images\PA\HomePA_7.png" class="img_PA">
+		<img src="..\images\PA\HomePA_4.gif" class="img_PA" style="margin-left: 12%"><img src="..\images\PA\HomePA_4.1.png" class="img_PA">
+		<img src="..\images\PA\HomePA_5.gif" class="img_PA"><img src="..\images\PA\HomePA_5.2.png" class="img_PA">
+		<img src="..\images\PA\HomePA_6.jpeg" class="img_PA">
 
 	</div>
 	<div id="Messager" class="brown">
@@ -278,7 +107,7 @@
 		<p>Mais où est donc le Journaliste?</p>
 		<p>En effet, le Messager est aussi le Journaliste. Cette partie là du PA est assez simple à expliquer. A chaque sortie, il faut faire un rapport minuté durant le week-end puis une fois rentré et avec les photos que va t'envoyer le CP tu vas écrire un article en racontant en détail le week-end. Tu le garniras de photo puis le mettra dans le livre d'or de la patrouille. Ce rapport peut prendre plusieurs formes. Tu peux raconter exactement ce que vous avez fait, tu peux le racpnter en partant de ton point de vue ou de celui d'un scout imaginaire de la patrouille qui filmerai tout ce qui se passerai ou encore le raconter sous forme de roman. Bref, tu n'as que l'embaras du choix pour faire un super rapport qui rappelera les bon souvenirs à ta patrouille à la fin de l'année. Un petit conseil... c'est le moment de mettre toutes les petites anecdotes du week-end, tout les instants marrant ou l'ambiance de patrouille est au top.</p>
 		<p>Voici des liens pour t'aider dans ton poste d'action:<br><a href="http://www.scoutorama.org/-Techniques-de-communication-.html">http://www.scoutorama.org/-Techniques-de-communication-.html</a><br><a href="http://www.scoutorama.org/-Transmissions-.html">http://www.scoutorama.org/-Transmissions-.html</a></p>
-		<img src="PA\HomePA_2.gif" style="margin-left: 35%;"><img src="PA\HomePA_2.1.gif" class="right_border">
+		<img src="..\images\PA\HomePA_2.gif" style="margin-left: 35%;"><img src="..\images\PA\HomePA_2.1.gif" class="right_border">
 	</div>
 	<div id="RecapMessager" class="brown">
 		<h2>PA Messager Recap</h2>
@@ -340,13 +169,28 @@
 			</li>
 		</ol>
 		<footer>
-			<div class="footer"><a href="PA/Messager/Messager.pdf" download="RecapPAMessager.pdf"><img src="Download.jpeg" class="footer"><span class="footer img"><div class="text_footer"><b>PA Messager</b><br>Format PDF</div></span></a></div>
-			<div class="footer"><a href="PA/Messager/Messager.odt" download="RecapPAMessager.odt"><img src="Download.jpeg" class="footer"><span class="footer img"><div class="text_footer"><b>PA Messager</b><br>Format ODT</div></span></a></div>
+			<div class="footer"><a href="../Postes-Actions/Messager/Messager.pdf" download="RecapPAMessager.pdf"><img src="Download.jpeg" class="footer"><span class="footer img"><div class="text_footer"><b>PA Messager</b><br>Format PDF</div></span></a></div>
+			<div class="footer"><a href="../Postes-Actions/Messager/Messager.odt" download="RecapPAMessager.odt"><img src="Download.jpeg" class="footer"><span class="footer img"><div class="text_footer"><b>PA Messager</b><br>Format ODT</div></span></a></div>
 		</footer>
 	</div>
 	<div id="Code" class="brown">
 		<h2>Les Principaux Codes</h2>
 		<h3>Les Codes Templier</h3>
+
+
+		<!--
+		################################################################################
+		#																			   #
+		#																			   #
+		#																			   #
+		#																			   #
+		#					j'en suis là pour les images							   #
+		#																			   #
+		#																			   #
+		#																			   #
+		################################################################################
+		-->
+
 		<img src="PA\Messager\code_templier.jpeg" class="CodeTemplier">
 		<img src="PA\Messager\Templier-1.jpg" class="CodeTemplier">
 		<img src="PA\Messager\Templier-2.png" class="CodeTemplier">
